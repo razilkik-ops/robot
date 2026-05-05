@@ -1,0 +1,7 @@
+services:
+  - type: static_site
+    name: robot
+    repo: https://github.com/razilkik-ops/robot
+    branch: main
+    buildCommand: "echo 'Static site: no build step'"
+    staticPublishPath: .
